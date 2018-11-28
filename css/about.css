@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*导航开始*/
+.news{
+	overflow: hidden;
+}
+.sidebar h4{
+	width:240px;
+	height:60px;
+	text-align:center;
+	line-height: 60px;
+	margin-bottom:15px;
+	background:#93d0ff;
+	color:#fff;
+	font-family: "微软雅黑";
+}
+/*导航结束*/
+/*文案介绍开始*/
+.main{
+	width:925px;
+	float:right;
+	margin-bottom:223px;
+}
+.main p{
+	font-size:12px;
+	float:right;
+	color:#999;
+	line-height: 40px;
+	text-indent: 2em;
+	font-family: "宋体";
+}
+.main img{
+	margin-bottom:35px;
+
+}
+.our{
+	width:925px;
+	padding-top:105px;
+	overflow: hidden;
+}
+.our h5{
+	font-family: "微软雅黑";
+	color:#666;
+	font-size:16px;
+	margin-bottom: 10px;
+}
+.our>b{
+	font-weight: normal;
+	font-family: "微软雅黑";
+	color:#999;
+	font-size:16px;
+	margin-left:55px;
+	display: block;
+}
+.our img{
+	width:270px;
+	float:left;
+	margin:50px 57px 42px 0;
+}
+.our img+img+img{
+	margin-right:0;
+}
+.our>p{
+	color:#999;
+	font-size:12px;
+	text-align:center;
+	line-height: 19px;
+}
+/*文案介绍结束*/

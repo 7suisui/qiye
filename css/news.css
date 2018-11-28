@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+/*导航开始*/
+.news{
+	overflow: hidden;
+}
+
+.sidebar h4{
+	width:240px;
+	height:60px;
+	text-align:center;
+	line-height: 60px;
+	margin-bottom:15px;
+	background:#93d0ff;
+	color:#fff;
+	font-family: "微软雅黑";
+}
+/*导航结束*/
+/*内容开始*/
+	.main{
+	width:925px;
+	float:right;
+}
+.main .content{
+	overflow: hidden;
+}
+.main .content li{
+	width:890px;
+	margin-bottom: 84px;
+}
+.main .content li:last-of-type{
+	margin-bottom:0;
+}
+.main img{
+	width:190px;
+	height:150px;
+	float:left;
+}
+.news-text{
+	width:505px;
+	padding:20px 0 10px 15px;
+	float:left;
+/*	font-weight: bold;*/
+}
+.main .content li:hover{
+	background:#eff9ff;
+}
+.news-text h3{
+	font-family: "微软雅黑";
+	font-weight: normal;
+	font-size:23px;
+	color:#666;
+	margin-bottom:15px;
+}
+.news-text p{
+	width:505px;
+	height:75px;
+	font-family: "微软雅黑";
+	color:#999;
+	font-size:12px;
+	line-height: 25px;
+}
+.date{
+	width:163px;
+	height:150px;
+	background:url(../images/index_03.png) no-repeat 85% 80%;
+	float:right;
+	margin-left:17px;
+	font-family: "微软雅黑";
+	font-size:0;
+}
+.date:before{
+	content: "";
+	width: 1px;
+	height: 78px;
+	background: #cfd1d2;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 32px;
+}
+.date p{
+	vertical-align: top;
+	display: inline-block;
+	color:#666;
+	font-size:36px;
+	padding: 5px 0 0 23px;
+	line-height: 32px;
+}
+.news ul li:hover .date{
+	background:url(../images/index1_03.jpg) no-repeat 85% 80%;
+	font-family: "微软雅黑";
+}
+.news ul li a{
+	overflow: hidden;
+}
+.date span{
+	color:#999;
+	display: block;
+	font-size:22px;
+}
+/*内容结束*/
+
+/*转页开始*/
+.main .page{
+	text-align:center;
+	margin:112px auto 123px;
+}
+/*
+.main .page>li{
+	width:30px;
+	height:30px;
+	background:#e6e6e6;
+	display: inline-block;
+	text-align:center;
+	line-height: 30px;
+	font-size:14px;	
+	margin-right:9px;
+}
+.main .page li a{
+	color:#999;	
+}
+.main .page li.current,.main .page li:hover{
+	background:#93d0ff;
+}
+.main .page li.current a,.main .page li:hover a{
+	color:#fff;
+}
+.main .page li:first-child,.main .page li:first-child+li+li+li+li+li{
+	width:70px;
+	background:#fff;
+}
+.main .page li:first-child:hover a,.main .page li:first-child+li+li+li+li+li:hover a{
+	background:#93d0ff;
+}
+*/
+/*转页结束*/

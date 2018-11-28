@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*关于我们开始*/
+.contact{
+	
+}
+.contact .location{
+	text-align: right;
+	margin:56px 0 70px 0;
+	color:#999;
+	font-size:14px;
+}
+.location a{
+	display:inline;
+	font-size:14px;
+	color:#999;
+}
+.location a:after{
+	content: "";
+	width:7px;
+	height:7px;
+	display:inline-block;
+	background:url(../images/loc-img_03.png) no-repeat center;
+	margin:0 2px;
+	
+}
+.location span{
+	font-size:14px;
+	color:#93d0ff;
+}
+#dituContent{
+	 width:1180px;
+	height:755px;
+	border:#ccc solid 1px;
+	margin:0 0 120px 7px;
+}
+
+.main{
+	overflow: hidden;
+	margin-bottom:195px;
+}
+.main-left{
+	width:327px;
+	float:left;
+}
+.main-left dt{
+	font-family: "微软雅黑";
+	font-size:22px;
+	color:#666;
+	margin-bottom:55px;
+}
+.main-left dd{
+	font-family: "微软雅黑";
+	font-size:18px;
+	color:#989898;
+	margin-bottom:33px;
+}
+.main-left dd:last-of-type{
+	margin-bottom:0;
+}
+
+.main-right{
+	width:610px;
+	float:right;
+}
+.main-right input{
+	width:270px;
+	height:33px;
+	border: none;
+	border-bottom: 1px solid #999;
+	margin-right:42px;
+	outline: none;
+	padding:0 5px 10px 5px;
+	font-size:18px;
+	font-family: "微软雅黑";
+}
+.main-right input+input{
+	margin-right:0;
+}
+.main-right input:first-child+input+input{
+	display: block;
+	margin:60px 0 58px 0;
+}
+.main-right textarea{
+	width:610px;
+	height:84px;
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	font-size:18px;
+	color:#000;
+	resize: none;
+	margin-bottom:40px;
+	font-family: "微软雅黑";
+	padding:5px 5px 5px 5px;
+}
+.box{
+	width:270px;
+	height:47px;
+	border: none;
+	border-bottom: 1px solid #999;
+	float:left;
+}
+.box>input{
+	width:110px;
+	height:43px;
+	border: none;
+	outline: none;
+	padding:0 5px 0 5px;
+	float:left;
+}
+.box a{
+	width:86px;
+	height:32px;
+	float:right;
+	margin-right:19px;
+	vertical-align: middle;
+}
+.main-right .submit{
+	margin:0 48px 0 30px;
+}
+.main-right .reset{
+	margin-right:0;
+}
+.main-right .submit,.main-right .reset{
+	width:113px;
+	height:33px;
+	display: inline-block;
+	background:none;
+	border:1px solid #ccc;
+	color:#ccc;
+	text-align: center;
+	font-size:18px;
+	cursor: pointer;
+	line-height: 33px;
+	padding:0;
+}
+.main-right .submit:hover,.main-right .reset:hover{
+	background:#93d0ff;
+	color:#fff;
+	
+}
+/*关于我们结束*/

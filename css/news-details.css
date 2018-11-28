@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/*边导航开始*/
+	.news{
+	overflow: hidden;
+}
+
+.sidebar h4{
+	width:240px;
+	height:60px;
+	text-align:center;
+	line-height: 60px;
+	margin-bottom:15px;
+	background:#93d0ff;
+	color:#fff;
+	font-family: "微软雅黑";
+}
+/*边导航结束*/
+/*内容开始*/
+.main{
+	width:891px;
+	float:right;
+}
+.date{
+	text-align: center;
+	margin-bottom:22px;	
+}
+.main h3{
+	font-size:18px;
+	color:#333;
+	margin-bottom:16px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.main .date span{
+	font-size:12px;
+	color:#ccc;
+	margin-right:55px;
+	display: inline-block;
+	text-align: center;
+	font-family: "宋体";
+}
+/*
+.main p:nth-of-type(3),.main p:nth-of-type(4){
+	font-size:12px;
+	color:#999;
+	text-indent: 2em;
+	line-height: 21px;
+	font-family: "宋体";
+}
+*/
+.main>img{
+	width:876px;
+	height:376px;
+	display: block;
+	margin:53px auto 58px;
+}
+.main p{
+	font-size:12px;
+	color:#666;
+	text-indent: 2em;
+	line-height: 37px;
+	font-family: "宋体";
+}
+.main ul{
+	margin:77px 0 100px;
+}
+.main ul li a{
+	color:#999;
+	font-family: "宋体";
+	display: inline-block;
+}
+.main ul li{
+	margin-bottom:20px;
+	font-size:12px;
+}
+.main ul li:last-of-type{
+	margin-bottom:0;
+}
+.main ul li a:hover {
+	color:#93d0ff;
+}
+/*内容结束*/
